@@ -1,0 +1,10 @@
+[alias]
+	graph = log --graph --abbrev-commit --decorate
+	cb = checkout -b
+	co = checkout
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[help]
+	autocorrect = prompt
